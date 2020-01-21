@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Денис Гарсков](https://up.htmlacademy.ru/htmlcss/27/user/583583).
-* Наставник: [Илья Приходкин] (https://htmlacademy.ru/profile/prikhodkin).
+* Наставник: [Илья Приходкин](https://htmlacademy.ru/profile/prikhodkin).
 
 ---
 
