@@ -80,7 +80,21 @@
           предложения гостиниц в Седоне
         </p>
         <button type="button">Поиск гостиницы в Седоне</button>
-        <!-- при нажатии кнопки появляется окно с формами поиска гостиницы-->
+        <section>
+          <h3 class="visually-hidden">Форма поиска гостинницы</h3>
+          <form action="https://echo.htmlacademt.ru">
+            <p>
+              <label for="date-check-in">Дата заезда:</label>
+              <input id="date-check-in" type="date" name="date-check-in" value="2017-04-24">
+            </p>
+            <p>
+              <label for="date-check-out">Дата выезда:</label>
+              <input id="date-check-out" type="date" name="date-check-out" value="2017-06-04">
+            </p>
+            <!-- Не знаю как сверстать два поля с выбором количества взрослых и детей-->
+            <button type="submit">Найти</button>
+          </form>
+        </section>
         <img
           src="img/map.jpg"
           width="1200"
