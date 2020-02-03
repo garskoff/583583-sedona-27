@@ -53,12 +53,10 @@
               <input id="filter-apartaments" name="filter-apartaments" type="checkbox" checked></li>
           </ul>
           <h3>Стоимость в сутки (Р)</h3>
-          <table>
-            <tr>
-              <td>От 0</td>
-              <td>До 3000</td>
-            </tr>
-          </table>
+          <label for="cost-per-day-min">От</label>
+          <input id="cost-per-day-min" type="number" name="cost-per-day-min" value="0">
+          <label for="cost-per-day-max">До</label>
+          <input id="cost-per-day-max" type="number" name="cost-per-day-max" value="3000">
           <input id="filter-cost-per-day"" type="range" name="filter-cost-per-day" min="0" max="3000" step="1">  
           <span>Найдено: 3</span>
           <span>Сортировка:</span>
@@ -68,7 +66,6 @@
             <li><a href="filter-rating">По рейтингу</a></li>
           </ul>
         </form>
-
       </section>
       <section>
         <h2 class="visually-hidden">Список найденных гостиниц</h2>
