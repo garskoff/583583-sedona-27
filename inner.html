@@ -27,7 +27,48 @@
           height="562"
           alt="Фото гор"
         />
-        <!-- тут будет форма поиска гостинниц, согласно заданию на этом этапе данный блок размечать не нужно -->
+        <form action="https://echo.htmlacademy.ru">
+          <h2>Инфраструктура:</h2>
+          <ul>
+            <li>
+              <label for="filter-pool">Бассеин</label>
+              <input id="filter-pool" name="filter-pool" type="checkbox"checked></li>
+            <li>
+              <label for="filter-parking">Парковка</label>
+              <input id="filter-parking" name="filter-parking" type="checkbox"></li>
+            <li>
+              <label for="filter-wi-fi">Wi-fi</label>
+              <input id="filter-wi-fi" name="filter-wi-fi" type="checkbox"></li>
+          </ul>
+          <h2>Тип жилья:</h2>
+          <ul>
+            <li>
+              <label for="filter-hotel">Гостинница</label>
+              <input id="filter-hotel" name="filter-hotel" type="checkbox" checked></li>
+            <li>
+              <label for="filter-motel">Мотель</label>
+              <input id="filter-motel" name="filter-motel" type="checkbox" checked></li>
+            <li>
+              <label for="filter-apartaments">Апартаменты</label>
+              <input id="filter-apartaments" name="filter-apartaments" type="checkbox" checked></li>
+          </ul>
+          <h3>Стоимость в сутки (Р)</h3>
+          <table>
+            <tr>
+              <td>От 0</td>
+              <td>До 3000</td>
+            </tr>
+          </table>
+          <input id="filter-cost-per-day"" type="range" name="filter-cost-per-day" min="0" max="3000" step="1">  
+          <span>Найдено: 3</span>
+          <span>Сортировка:</span>
+          <ul>
+            <li><a href="filter-price">По цене</a></li>
+            <li><a href="filter-type">По типу</a></li>
+            <li><a href="filter-rating">По рейтингу</a></li>
+          </ul>
+        </form>
+
       </section>
       <section>
         <h2 class="visually-hidden">Список найденных гостиниц</h2>
