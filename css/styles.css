@@ -1,0 +1,145 @@
+html { 
+    box-sizing: border-box; 
+}
+*, *::before, *::after {
+     box-sizing: inherit; 
+}
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    text-transform: uppercase;
+    background-color: #f2f2f2;
+}
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    …
+  }
+  .main-navigation {
+      position: relative;
+  }
+  .wrapper {
+      background-color: #fff;
+      min-width: 1200px;
+      max-width: 1200px;
+      margin: 0 auto;
+      box-shadow: 
+      -1px 0 5px lightgrey,
+      1px 0 5px lightgray;
+  }
+    header {
+        background-color: #fff;
+    }
+    .site-navigation {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+  .site-navigation li {
+      width: 239px;
+      font-size: 14px;
+      padding-left: 5px;
+      list-style: none;
+      line-height: 26px;
+      padding-right: 10px;
+      font-weight: bold;
+      color: #000000;
+      text-align: center;
+      
+  }
+  .header-logo {
+      position: absolute;
+      top: 0;
+      left: 529px;  
+
+  }
+  .site-navigation a {
+      text-decoration: none;
+      color: #000;
+  }
+  .site-navigation a:link {
+      color: #000;
+  }
+  .site-navigation a:visited {
+
+  }
+  .site-navigation a:hover {
+      color: #81b3d2;
+  }
+  .site-navigation a:active {
+    color: grey;
+  }
+  .page-title h1 {
+      text-align: center;
+      font-size: 21px;
+      line-height: 26px;
+      padding: 0 400px;
+  }
+  .page-title p {
+      text-align: center;
+  }
+  .features-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  }
+  .search-hotel-title h2 {
+      font-size: 30px;
+      line-height: 36px;
+      text-align: center;
+  }
+  .search-hotel-title p {
+      text-align: center;
+      color: #333;
+  }
+
+
+  .search-hotel-button {
+      font-size: 21px;
+      line-height: 26px;
+      width: 568px;
+      height: 86px;
+      color: #ffffff;
+      background-color: #766357;
+      text-transform: uppercase;
+      border: none;
+  }
+  .find-hotels-btn {
+      border: none;
+      width: 458px;
+      height: 58px;
+      color: #ffffff;
+      background-color: #81b3d2;
+      text-transform: uppercase; 
+      font-weight: 700; 
+      font-size: 21px;
+    line-height: 26px;  
+  }
+  .find-hotels-btn:hover {
+      background-color: #669ec0;
+  }
+  .find-hotels-btn:active {
+    background-color: #5496bd;
+}
+.contacts {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+}
+.socials {
+    display: flex;
+    list-style: none;
+}
+.socials li {
+    font-size: 0;
+    width: 46px;
+    height: 48px;
+    background-color: #81b3d2;
+    margin-left: 6px;
+}
